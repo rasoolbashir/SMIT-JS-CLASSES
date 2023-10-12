@@ -93,11 +93,86 @@
                     
    //(*2*) template literals (template strings)
 
-   for (let num = 1; num<= 10; num++){
-    let tableOf =12
-    console.log(tableOf + " * " + num + " = " + tableOf * num )
-   }
+//    for (let num = 1; num<= 10; num++){
+//     let tableOf =3
+//     // console.log(tableOf + " * " + num + " = " + tableOf * num ) is ko hum es tarikya sa be krr saktya ha
+//     console.log(`${tableOf} * ${num} = ${tableOf * num}`);
+//    }
 
+
+                         //(*3*) Defult Parameters
+
+// function multiply(a,b){
+//     return a*b;
+// }
+// console.log(multiply(5,2));
+
+
+
+              //(*3*)FAT  ARROW FUNCTION
+//Normal way to writing function
+
+// console.log(sum());
+// function sum(){
+//     let a=5; b=6;
+//     let sum = a+b;
+//     return `The sum of the two number is ${sum}`;
+// }
+
+
+// How to convert in into fat arrow function
+  // we can convet it by donig 3 different step
+         //(1)
+// const sum =() =>{
+//     let a=6; b=6;
+//     let sum =a+b;
+//     return `The sum of the two number is ${sum}`;
+// }
+// console.log(sum());
+
+
+
+                    //   //(2)
+                    //   const sum =() =>{
+                    //     let a=8; b=8;
+                    //     // let sum =a+b;
+                    //     return `The sum of the two number is ${a+b}`;
+                    // }
+                    // console.log(sum());
+
+
+
+                       //(3)
+//aghr hum code ko ek line ma likhna chaya to main curly bases{ } or return hata dangya phr ya run ho ga      
+
+                    //    const sum =() =>`The sum of the two number is ${(a=5)+(b=5)}`;
+                    
+                    // console.log(sum());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
 
 
 
